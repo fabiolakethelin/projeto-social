@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+body {
+    background: url(../images/fundo-madeira.jpg) no-repeat top center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+
+#telefone {
+    height: 627px;
+    width: 311px;
+    background: url(../images/frame-iphone.png) no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+iframe#tela {
+    height: 471px;
+    width: 267px;
+    position: relative;
+    top: 80px;
+    left: 22px;
+}
+
+#aplicativos {
+    text-align: right; /* AS LOGOS FICARAM NA PARTE DIREITA */
+}
+
+#aplicativos img {
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.386);
+    box-sizing: border-box; /* A BORDA FARÁ PARTE DO TAMANHO DA CAIXA */
+}
+
+#aplicativos img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.561);
+    transform: translate(-3px, -3px); /* A IMG IRÁ SE MEXER AO COLOCAR O MOUSE SOB */
+    transition: transform .25s; /* O TEMPO P/ O TRANSFORME SERÁ DE 0.5 SEG */
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.616);
+}
