@@ -39,7 +39,7 @@ iframe#tela {
 }
 
 #aplicativos {
-    text-align: right; /* AS LOGOS FICARAM NA PARTE DIREITA */
+    text-align: right;
 }
 
 #aplicativos img {
@@ -47,12 +47,12 @@ iframe#tela {
     border-radius: 50%;
     margin: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.386);
-    box-sizing: border-box; /* A BORDA FARÁ PARTE DO TAMANHO DA CAIXA */
+    box-sizing: border-box;
 }
 
 #aplicativos img:hover {
     border: 2px solid rgba(255, 255, 255, 0.561);
-    transform: translate(-3px, -3px); /* A IMG IRÁ SE MEXER AO COLOCAR O MOUSE SOB */
-    transition: transform .25s; /* O TEMPO P/ O TRANSFORME SERÁ DE 0.5 SEG */
+    transform: translate(-3px, -3px);
+    transition: transform .25s;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.616);
 }
